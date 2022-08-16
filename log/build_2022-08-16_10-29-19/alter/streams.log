@@ -1,0 +1,24 @@
+[0.360s] Invoking command in '/root/dev_ws/src/alter': PYTHONPATH=/root/dev_ws/install/alter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/alter build --build-base /root/dev_ws/build/alter/build install --prefix /root/dev_ws/install/alter --record /root/dev_ws/build/alter/install.log --single-version-externally-managed
+[0.443s] running egg_info
+[0.445s] writing ../../build/alter/alter.egg-info/PKG-INFO
+[0.449s] writing dependency_links to ../../build/alter/alter.egg-info/dependency_links.txt
+[0.454s] writing entry points to ../../build/alter/alter.egg-info/entry_points.txt
+[0.457s] writing requirements to ../../build/alter/alter.egg-info/requires.txt
+[0.460s] writing top-level names to ../../build/alter/alter.egg-info/top_level.txt
+[0.488s] reading manifest file '../../build/alter/alter.egg-info/SOURCES.txt'
+[0.495s] writing manifest file '../../build/alter/alter.egg-info/SOURCES.txt'
+[0.499s] running build
+[0.504s] running build_py
+[0.507s] copying alter/publish.py -> /root/dev_ws/build/alter/build/lib/alter
+[0.510s] running install
+[0.513s] running install_lib
+[0.515s] copying /root/dev_ws/build/alter/build/lib/alter/publish.py -> /root/dev_ws/install/alter/lib/python3.8/site-packages/alter
+[0.523s] byte-compiling /root/dev_ws/install/alter/lib/python3.8/site-packages/alter/publish.py to publish.cpython-38.pyc
+[0.530s] running install_data
+[0.534s] running install_egg_info
+[0.536s] removing '/root/dev_ws/install/alter/lib/python3.8/site-packages/alter-0.0.0-py3.8.egg-info' (and everything under it)
+[0.543s] Copying ../../build/alter/alter.egg-info to /root/dev_ws/install/alter/lib/python3.8/site-packages/alter-0.0.0-py3.8.egg-info
+[0.612s] running install_scripts
+[0.628s] Installing publisher script to /root/dev_ws/install/alter/lib/alter
+[0.634s] writing list of installed files to '/root/dev_ws/build/alter/install.log'
+[0.649s] Invoked command in '/root/dev_ws/src/alter' returned '0': PYTHONPATH=/root/dev_ws/install/alter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/alter build --build-base /root/dev_ws/build/alter/build install --prefix /root/dev_ws/install/alter --record /root/dev_ws/build/alter/install.log --single-version-externally-managed

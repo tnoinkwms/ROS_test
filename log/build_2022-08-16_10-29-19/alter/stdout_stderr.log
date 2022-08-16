@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/alter/alter.egg-info/PKG-INFO
+writing dependency_links to ../../build/alter/alter.egg-info/dependency_links.txt
+writing entry points to ../../build/alter/alter.egg-info/entry_points.txt
+writing requirements to ../../build/alter/alter.egg-info/requires.txt
+writing top-level names to ../../build/alter/alter.egg-info/top_level.txt
+reading manifest file '../../build/alter/alter.egg-info/SOURCES.txt'
+writing manifest file '../../build/alter/alter.egg-info/SOURCES.txt'
+running build
+running build_py
+copying alter/publish.py -> /root/dev_ws/build/alter/build/lib/alter
+running install
+running install_lib
+copying /root/dev_ws/build/alter/build/lib/alter/publish.py -> /root/dev_ws/install/alter/lib/python3.8/site-packages/alter
+byte-compiling /root/dev_ws/install/alter/lib/python3.8/site-packages/alter/publish.py to publish.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/root/dev_ws/install/alter/lib/python3.8/site-packages/alter-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/alter/alter.egg-info to /root/dev_ws/install/alter/lib/python3.8/site-packages/alter-0.0.0-py3.8.egg-info
+running install_scripts
+Installing publisher script to /root/dev_ws/install/alter/lib/alter
+writing list of installed files to '/root/dev_ws/build/alter/install.log'

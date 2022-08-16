@@ -1,0 +1,37 @@
+[0.417s] Invoking command in '/root/dev_ws/src/alter': PYTHONPATH=/root/dev_ws/install/alter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/alter build --build-base /root/dev_ws/build/alter/build install --prefix /root/dev_ws/install/alter --record /root/dev_ws/build/alter/install.log --single-version-externally-managed
+[0.493s] running egg_info
+[0.497s] creating ../../build/alter/alter.egg-info
+[0.499s] writing ../../build/alter/alter.egg-info/PKG-INFO
+[0.509s] writing dependency_links to ../../build/alter/alter.egg-info/dependency_links.txt
+[0.513s] writing entry points to ../../build/alter/alter.egg-info/entry_points.txt
+[0.516s] writing requirements to ../../build/alter/alter.egg-info/requires.txt
+[0.519s] writing top-level names to ../../build/alter/alter.egg-info/top_level.txt
+[0.524s] writing manifest file '../../build/alter/alter.egg-info/SOURCES.txt'
+[0.558s] reading manifest file '../../build/alter/alter.egg-info/SOURCES.txt'
+[0.568s] writing manifest file '../../build/alter/alter.egg-info/SOURCES.txt'
+[0.571s] running build
+[0.573s] running build_py
+[0.576s] creating /root/dev_ws/build/alter/build
+[0.579s] creating /root/dev_ws/build/alter/build/lib
+[0.581s] creating /root/dev_ws/build/alter/build/lib/alter
+[0.584s] copying alter/__init__.py -> /root/dev_ws/build/alter/build/lib/alter
+[0.592s] copying alter/publish.py -> /root/dev_ws/build/alter/build/lib/alter
+[0.607s] running install
+[0.609s] running install_lib
+[0.612s] creating /root/dev_ws/install/alter/lib/python3.8/site-packages/alter
+[0.615s] copying /root/dev_ws/build/alter/build/lib/alter/__init__.py -> /root/dev_ws/install/alter/lib/python3.8/site-packages/alter
+[0.623s] copying /root/dev_ws/build/alter/build/lib/alter/publish.py -> /root/dev_ws/install/alter/lib/python3.8/site-packages/alter
+[0.634s] byte-compiling /root/dev_ws/install/alter/lib/python3.8/site-packages/alter/__init__.py to __init__.cpython-38.pyc
+[0.644s] byte-compiling /root/dev_ws/install/alter/lib/python3.8/site-packages/alter/publish.py to publish.cpython-38.pyc
+[0.652s] running install_data
+[0.655s] creating /root/dev_ws/install/alter/share/ament_index
+[0.658s] creating /root/dev_ws/install/alter/share/ament_index/resource_index
+[0.661s] creating /root/dev_ws/install/alter/share/ament_index/resource_index/packages
+[0.664s] copying resource/alter -> /root/dev_ws/install/alter/share/ament_index/resource_index/packages
+[0.673s] copying package.xml -> /root/dev_ws/install/alter/share/alter
+[0.678s] running install_egg_info
+[0.682s] Copying ../../build/alter/alter.egg-info to /root/dev_ws/install/alter/lib/python3.8/site-packages/alter-0.0.0-py3.8.egg-info
+[0.746s] running install_scripts
+[0.761s] Installing publisher script to /root/dev_ws/install/alter/lib/alter
+[0.767s] writing list of installed files to '/root/dev_ws/build/alter/install.log'
+[0.784s] Invoked command in '/root/dev_ws/src/alter' returned '0': PYTHONPATH=/root/dev_ws/install/alter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/alter build --build-base /root/dev_ws/build/alter/build install --prefix /root/dev_ws/install/alter --record /root/dev_ws/build/alter/install.log --single-version-externally-managed

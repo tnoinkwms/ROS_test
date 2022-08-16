@@ -1,0 +1,36 @@
+[0.000000] (-) TimerEvent: {}
+[0.002843] (alter) JobQueued: {'identifier': 'alter', 'dependencies': OrderedDict()}
+[0.003803] (alter) JobStarted: {'identifier': 'alter'}
+[0.097564] (-) TimerEvent: {}
+[0.198415] (-) TimerEvent: {}
+[0.299732] (-) TimerEvent: {}
+[0.352773] (alter) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/alter', 'build', '--build-base', '/root/dev_ws/build/alter/build', 'install', '--prefix', '/root/dev_ws/install/alter', '--record', '/root/dev_ws/build/alter/install.log', '--single-version-externally-managed'], 'cwd': '/root/dev_ws/src/alter', 'env': {'HOSTNAME': '9398af3e0947', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/dev_ws/install', 'ROS_DISTRO': 'foxy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/dev_ws/install/alter:/opt/ros/foxy', 'PWD': '/root/dev_ws/build/alter', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/dev_ws/install/alter/lib/python3.8/site-packages:/root/dev_ws/install/alter/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.399829] (-) TimerEvent: {}
+[0.458689] (alter) StdoutLine: {'line': b'running egg_info\n'}
+[0.461773] (alter) StdoutLine: {'line': b'writing ../../build/alter/alter.egg-info/PKG-INFO\n'}
+[0.465450] (alter) StdoutLine: {'line': b'writing dependency_links to ../../build/alter/alter.egg-info/dependency_links.txt\n'}
+[0.469797] (alter) StdoutLine: {'line': b'writing entry points to ../../build/alter/alter.egg-info/entry_points.txt\n'}
+[0.472984] (alter) StdoutLine: {'line': b'writing requirements to ../../build/alter/alter.egg-info/requires.txt\n'}
+[0.477233] (alter) StdoutLine: {'line': b'writing top-level names to ../../build/alter/alter.egg-info/top_level.txt\n'}
+[0.500693] (-) TimerEvent: {}
+[0.506570] (alter) StdoutLine: {'line': b"reading manifest file '../../build/alter/alter.egg-info/SOURCES.txt'\n"}
+[0.513513] (alter) StdoutLine: {'line': b"writing manifest file '../../build/alter/alter.egg-info/SOURCES.txt'\n"}
+[0.516619] (alter) StdoutLine: {'line': b'running build\n'}
+[0.519440] (alter) StdoutLine: {'line': b'running build_py\n'}
+[0.522011] (alter) StdoutLine: {'line': b'copying alter/publish.py -> /root/dev_ws/build/alter/build/lib/alter\n'}
+[0.527217] (alter) StdoutLine: {'line': b'running install\n'}
+[0.529345] (alter) StdoutLine: {'line': b'running install_lib\n'}
+[0.532527] (alter) StdoutLine: {'line': b'copying /root/dev_ws/build/alter/build/lib/alter/publish.py -> /root/dev_ws/install/alter/lib/python3.8/site-packages/alter\n'}
+[0.543260] (alter) StdoutLine: {'line': b'byte-compiling /root/dev_ws/install/alter/lib/python3.8/site-packages/alter/publish.py to publish.cpython-38.pyc\n'}
+[0.550270] (alter) StdoutLine: {'line': b'running install_data\n'}
+[0.552358] (alter) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.554538] (alter) StdoutLine: {'line': b"removing '/root/dev_ws/install/alter/lib/python3.8/site-packages/alter-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.561280] (alter) StdoutLine: {'line': b'Copying ../../build/alter/alter.egg-info to /root/dev_ws/install/alter/lib/python3.8/site-packages/alter-0.0.0-py3.8.egg-info\n'}
+[0.600992] (-) TimerEvent: {}
+[0.627900] (alter) StdoutLine: {'line': b'running install_scripts\n'}
+[0.640892] (alter) StdoutLine: {'line': b'Installing publisher script to /root/dev_ws/install/alter/lib/alter\n'}
+[0.648189] (alter) StdoutLine: {'line': b"writing list of installed files to '/root/dev_ws/build/alter/install.log'\n"}
+[0.663269] (alter) CommandEnded: {'returncode': 0}
+[0.701196] (-) TimerEvent: {}
+[0.753247] (alter) JobEnded: {'identifier': 'alter', 'rc': 0}
+[0.758906] (-) EventReactorShutdown: {}

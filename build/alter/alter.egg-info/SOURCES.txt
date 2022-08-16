@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/alter/alter.egg-info/PKG-INFO
+../../build/alter/alter.egg-info/SOURCES.txt
+../../build/alter/alter.egg-info/dependency_links.txt
+../../build/alter/alter.egg-info/entry_points.txt
+../../build/alter/alter.egg-info/requires.txt
+../../build/alter/alter.egg-info/top_level.txt
+../../build/alter/alter.egg-info/zip-safe
+alter/__init__.py
+alter/publish.py
+resource/alter
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
